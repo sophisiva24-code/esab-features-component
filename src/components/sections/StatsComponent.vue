@@ -35,10 +35,16 @@ const stats = ruffianFeatures.highlights;
 .stats-item:last-child {
     border-right: none;
 }
+@media (max-width: 1024px) {
+    .stats-item:last-child {
+        border-right: 1px solid $esab-gray-1;
+    }
+}
+
 .stat-value {
     font-size: 28px;
     font-weight: $fw-bolder;
-    line-height: 30.8px;
+    line-height: 1.1;
     color: $esab-yellow;
 }
 .stat-label {

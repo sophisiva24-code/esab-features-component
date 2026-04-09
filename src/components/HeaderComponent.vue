@@ -46,6 +46,7 @@ import { defineEmits } from 'vue';
     background: $esab-black;
     border-bottom: 3px solid $esab-yellow;
     padding: 0 $gutter;
+    height: 64px;
 }
 .logo {
     width: 110px;
@@ -93,5 +94,10 @@ a {
     padding: 10px 20px;
     font-weight: $fw-bold;
     font-size: 13px;
+}
+@media (max-width: 768px) {
+    .nav-header {
+        display: none;
+    }
 }
 </style>
