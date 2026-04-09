@@ -31,13 +31,13 @@ The implementation follows a clean, component-based architecture and focuses on 
 
 ## 🔗 Live Demo
 
-https://your-site.netlify.app       -----------------------> CHANGE
+https://esabfeatureassessment.netlify.app/
 
 ---
 
 ## Repository
 
-https://github.com/your-username/repo-name   -----------------------> CHANGE
+https://github.com/sophisiva24-code/esab-features-component
 
 ---
 
@@ -88,5 +88,5 @@ src/
 
 Clone the repository:
 
-git clone https://github.com/your-username/repo-name.git       -----------------------> CHANGE
+git clone https://github.com/sophisiva24-code/esab-features-component.git 
 cd repo-name

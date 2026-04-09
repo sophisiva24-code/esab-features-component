@@ -13,7 +13,7 @@
             </ul>
         </nav>        
         <div class="demoAction">
-            <a href="#requestDemo" class="btn btn-primary">REQUEST DEMO</a>
+            <a href="#demo" class="btn btn-primary">REQUEST DEMO</a>
         </div>
     </header>
 </template>
