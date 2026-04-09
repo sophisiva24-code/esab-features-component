@@ -1,0 +1,141 @@
+{
+  "product": "Ruffian EMP 270G",
+  "model": "Ruffian EMP 270G EDW",
+  "tagline": "Built in Texas. Tested for the Toughest Environments.",
+  "intro": "The next generation of ESAB engine-driven welders — a lightweight, compact, and powerful combination of generator and multiprocess welder, engineered to deliver where the grid ends.",
+  "categories": ["All", "Power", "Performance", "Control", "Durability"],
+  "highlights": [
+    { "label": "Welding Output", "value": "270A",   "unit": "@ 100% Duty Cycle" },
+    { "label": "Generator Power","value": "11kW",   "unit": "Peak Output" },
+    { "label": "Engine",         "value": "23.5HP", "unit": "Kohler® Command Pro" },
+    { "label": "Display",        "value": "7\"",    "unit": "TFT Color" }
+  ],
+  "features": [
+    {
+      "id": "f01",
+      "category": "Power",
+      "title": "270A at 100% Duty Cycle",
+      "description": "Delivers a full 270 amps of welding output at 100% duty cycle — sustained, all-day power without thermal cutout on the most demanding job sites.",
+      "icon": "power",
+      "highlight": true,
+      "image": "feature-duty-cycle.jpg"
+    },
+    {
+      "id": "f02",
+      "category": "Power",
+      "title": "11 kW Generator Output",
+      "description": "Peak output of 11 kW across multiple 120VAC and 240VAC outlets. Run grinders, compressors, lights, plasma cutters, and additional welders simultaneously.",
+      "icon": "generator",
+      "highlight": false,
+      "image": "feature-generator.jpg"
+    },
+    {
+      "id": "f03",
+      "category": "Power",
+      "title": "23.5 HP Kohler® Engine",
+      "description": "Powered by the proven Kohler® Command Pro CH730 gasoline engine — made in America, built for harsh construction environments and reliable starts.",
+      "icon": "engine",
+      "highlight": false,
+      "image": "feature-engine.jpg"
+    },
+    {
+      "id": "f04",
+      "category": "Power",
+      "title": "Versatile Power Outlets",
+      "description": "4× 120VAC 20A GFCI receptacles, one 240VAC (6-50R) dedicated outlet, and a 120/240V hybrid outlet — all circuit-breaker protected with rubber covers.",
+      "icon": "outlets",
+      "highlight": false,
+      "image": "feature-outlets.jpg"
+    },
+    {
+      "id": "f05",
+      "category": "Performance",
+      "title": "True Multiprocess Capability",
+      "description": "Handles SMAW (Stick), GTAW (TIG), GMAW (MIG), FCAW (Flux-Core), and CAC-A (Carbon Arc Gouging) — one machine for every process on the job site.",
+      "icon": "multiprocess",
+      "highlight": true,
+      "image": "feature-multiprocess.jpg"
+    },
+    {
+      "id": "f06",
+      "category": "Performance",
+      "title": "Next-Generation Inverter",
+      "description": "Proprietary inverter technology delivers easy arc starts across all welding modes, with synergic lines for fast setup and best-in-class arc performance.",
+      "icon": "inverter",
+      "highlight": false,
+      "image": "feature-inverter.jpg"
+    },
+    {
+      "id": "f07",
+      "category": "Performance",
+      "title": "Advanced Arc Controls",
+      "description": "Arc Force for Stick, Cables Calibration for MIG, and full synergic control — precise arc tuning including 6010/6011, 7018, and hardfacing electrodes.",
+      "icon": "arc-control",
+      "highlight": false,
+      "image": "feature-arc.jpg"
+    },
+    {
+      "id": "f08",
+      "category": "Performance",
+      "title": "Carbon Arc Gouging",
+      "description": "Capable of carbon arc gouging with 3/16 in. carbons — for cutting, removing, and preparing metal on the job site.",
+      "icon": "gouging",
+      "highlight": false,
+      "image": "feature-gouging.jpg"
+    },
+    {
+      "id": "f09",
+      "category": "Control",
+      "title": "7\" TFT Color Display",
+      "description": "Large, high-contrast 7-inch display with intuitive menus and advanced HMI — readable at distance in direct sunlight. Optimizes welds through accurate software control.",
+      "icon": "display",
+      "highlight": true,
+      "image": "feature-display.jpg"
+    },
+    {
+      "id": "f10",
+      "category": "Control",
+      "title": "Synergic Setup",
+      "description": "Synergic lines automate welding parameter relationships — dial in wire, gas, and material and the machine sets the optimal starting point. Fast, repeatable, consistent.",
+      "icon": "synergic",
+      "highlight": false,
+      "image": "feature-synergic.jpg"
+    },
+    {
+      "id": "f11",
+      "category": "Control",
+      "title": "100+ Customer-Requested Features",
+      "description": "More than 100 features developed directly from field operator feedback — from the HMI design to process-specific fine-tuning controls.",
+      "icon": "features-list",
+      "highlight": false,
+      "image": "feature-hmi.jpg"
+    },
+    {
+      "id": "f12",
+      "category": "Durability",
+      "title": "Built and Tested in Texas",
+      "description": "Assembled and tested in the USA. Engineered for the harshest construction, oil and gas, and mobile service environments.",
+      "icon": "usa",
+      "highlight": true,
+      "image": "feature-usa.jpg"
+    },
+    {
+      "id": "f13",
+      "category": "Durability",
+      "title": "Compact Truck & Trailer Ready",
+      "description": "Small footprint and structural design engineered for truck-bed or trailer mounting — go anywhere the work takes you without leaving capability behind.",
+      "icon": "mobile",
+      "highlight": false,
+      "image": "feature-mobile.jpg"
+    },
+    {
+      "id": "f14",
+      "category": "Durability",
+      "title": "Simplified Maintenance",
+      "description": "Full component visibility and precise parts replacement timing notifications — designed to extend equipment lifespan and minimize unplanned downtime in the field.",
+      "icon": "maintenance",
+      "highlight": false,
+      "image": "feature-maintenance.jpg"
+    }
+  ]
+}

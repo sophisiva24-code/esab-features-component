@@ -1,0 +1,91 @@
+@use './variables' as *;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $font-family;
+    font-size: $sp-2;
+    line-height: 22.4px;
+    color: $text-body;
+    background: $surface;
+}
+
+.container {
+    max-width: $container-max;
+    margin: 0 auto;
+    padding: 0 $gutter;
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    gap: $sp-1;
+    padding: $sp-2 $sp-8;
+    border-radius: $radius;
+    font-family: 'Roboto', sans-serif;
+    font-size: $sp-2;
+    font-weight: $fw-bold;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: all 0.2s;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+}
+.btn-primary {
+    background: $primary-color;
+    color: $cta-text;
+    border: none;
+    cursor: pointer;
+    border-radius: $radius;
+    &:hover {
+        background: #e6d100;
+    }
+    font-weight: $fw-bold;
+}
+.btn-outline {
+    background: transparent;
+    border-color: $esab-white;
+    color: $esab-white;
+    border: 2px solid $esab-white;
+    &:hover {
+        background: $esab-white;
+        color: $esab-black;
+    }
+}
+
+.section-header {
+  text-align: center;
+  max-width: 640px;
+  margin: 0 auto $sp-6;
+}
+
+.section-tag {
+  display: inline-block;
+  background: transparent;
+  border: 1px solid $border;
+  color: $text-muted;
+  font-size: 12px;
+  font-weight: $fw-bold;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 4px 14px;
+  border-radius: $sp-5;
+  margin-bottom: $sp-2;
+}
+
+.section-title {
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 1.1;
+  color: $text;
+  margin-bottom: $sp-2;
+}
+
+.section-desc {
+  font-size: $sp-2;
+  color: $text-muted;
+  line-height: 22.4px;
+}
