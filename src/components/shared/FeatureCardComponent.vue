@@ -12,7 +12,7 @@
     </div>
 
     <div class="card__icon">
-       <!-- <img :src="card.icon" alt="" /> -->
+      <img src="@/assets/icons/power.svg" alt="" />
     </div>
 
     <div class="card__title-row" @click="toggleCard">
